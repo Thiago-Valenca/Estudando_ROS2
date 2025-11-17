@@ -142,12 +142,18 @@ export ROS_DOMAIN_ID=8
 ````
 # Como Criar uma Workspace no ROS 2 Jazzy
 
-Uma Workspace é uma pasta que sera o local principal de desenvolvimento e organizacao do software do robo
+Uma Workspace é uma pasta que será o local principal de desenvolvimento e organização do software do robô.
+
+Primeiro, escrevemos o seguinte comando no terminal:
 
 ````
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws/
 ````
 ````
+colcon build
 ````
+Isto retornará 0 packages, porque não fizemos nenhum ainda.
 ````
 ````
 ````
