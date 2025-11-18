@@ -276,6 +276,9 @@ sudo apt-get install -y ros-${ROS_DISTRO}-ros-gz
 ````
 sudo apt-get install -y ros-${ROS_DISTRO}-ros-gz ros-${ROS_DISTRO}-gz-ros2-control ros-${ROS_DISTRO}-gz-ros2-control-demos ros-${ROS_DISTRO}-joint-state-publisher-gui ros-${ROS_DISTRO}-moveit ros-${ROS_DISTRO}-xacro ros-${ROS_DISTRO}-ros2-control ros-${ROS_DISTRO}-ros2-controllers libserial-dev python3-pip
 ````
+# Criando um Python Publisher para ROS 2 Jazzy
+
+Um pyhton publisher é um script que envia mensagens em meio à rede do ROS para outras partes do sistema.
 ````
 ````
 ````
